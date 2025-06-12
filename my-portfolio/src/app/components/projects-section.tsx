@@ -3,7 +3,6 @@ import ProjectCard from "../components/project-card";
 import depwithImage from "../../../public/images/monw.jpg";
 import helplineImage from "../../../public/images/helpline.png";
 import stramcoImage from "../../../public/images/stram.png";
-import lauraPortfolioImage from "../../../public/images/Laura portfolio.png";
 import raponiGardensImage from "../../../public/images/raponi3.png";
 import serviceMotiImage from "../../../public/images/Servicemoti.png";
 import bmi from "../../../public/images/bmi.jpg";
