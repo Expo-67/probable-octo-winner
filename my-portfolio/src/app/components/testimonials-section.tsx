@@ -1,3 +1,4 @@
+"use client";
 export default function TestimonialsSection() {
   return (
     <section className="py-20 bg-gray-50 dark:bg-gray-800">

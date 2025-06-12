@@ -7,19 +7,22 @@ export default function AboutSection() {
         </h2>
         <div className="max-w-3xl mx-auto text-gray-600 dark:text-gray-300 space-y-6">
           <p>
-            I&apos;m a passionate{" "}
             <strong className="text-gray-900 dark:text-white">
               Full Stack Software Developer
-            </strong>{" "}
-            with a strong background in designing, building, and deploying
-            high-quality web applications.
-          </p>
-          <p>
-            A certified Full Stack Software Developer from Gomycode Kenya,
-            specializing in MERN stack development. I have expertise in a
-            diverse range of programming languages (**Python, C#, Java**), as
-            well as mobile development using Android Studio, with proficiency in
-            **Java and Kotlin**.
+            </strong>
+            <p>
+              With a solid foundation in designing, developing and deploying
+              high-quality web applications, I bring both technical skills and
+              practical experience to every project.
+            </p>
+            <p>
+              I’m a certified Full Stack Software Developer from GoMyCode Kenya,
+              specializing in MERN stack development. Beyond web technologies, I
+              have hands-on experience with multiple programming languages
+              including Python, C#, and Java, and I’ve also worked on mobile
+              applications using Android Studio with proficiency in Java and
+              Kotlin.
+            </p>
           </p>
         </div>
       </div>

@@ -26,8 +26,9 @@ export default function HeroSection() {
             </h1>
 
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 max-w-lg">
-              I&apos;m a passionate Full Stack Software Developer with expertise
-              in building scalable web applications using modern technologies.
+              I&apos;m a passionate Full Stack Software Developer who loves
+              building scalable and user-friendly web applications using modern
+              technologies.
             </p>
 
             <div className="flex flex-wrap gap-4 mb-8">

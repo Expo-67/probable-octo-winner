@@ -45,22 +45,14 @@ export default function ProjectsSection() {
             status="Completed"
           />
           <ProjectCard
-            title="Laura Kalela Portfolio"
-            description="A modern, responsive personal portfolio website built for a digital marketing professional to showcase her services and achievements."
-            image={lauraPortfolioImage}
-            tags={["Frontend", "Portfolio", "Responsive"]}
-            liveUrl="https://laurasportfolio2.vercel.app/"
-            date="March 2025"
-            status="Completed"
-          />
-          <ProjectCard
             title="Raponi Gardens"
             description="Website for a landscape and environmental solutions company specializing in sustainable outdoor spaces and garden design."
             image={raponiGardensImage}
             tags={["Frontend", "Web Design", "In Progress"]}
             date="April 2025"
             githubUrl="https://github.com/Expo-67/Raponiv2-guide.git"
-            status="Ongoing"
+            liveUrl="https://raponiv2-guide.vercel.app/"
+            status="Completed"
           />
           <ProjectCard
             title="Service-Moti"
