@@ -32,13 +32,13 @@ export default function ProjectCard({
   status = "Completed",
 }: ProjectCardProps) {
   return (
-    <Card className="overflow-hidden transition-all duration-300 hover:shadow-lg dark:border-gray-800">
-      <div className="relative h-48 w-full overflow-hidden">
+    <Card className="group overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 dark:border-gray-800 bg-white dark:bg-gray-900/50 backdrop-blur-sm">
+      <div className="relative h-48 w-full overflow-hidden bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900">
         <Image
           src={image || "/placeholder.svg"}
           alt={title}
           fill
-          className="object-cover transition-transform duration-500 hover:scale-105"
+          className="object-cover transition-transform duration-500 group-hover:scale-110 group-hover:rotate-1"
         />
         {status && (
           <div className="absolute top-3 right-3">

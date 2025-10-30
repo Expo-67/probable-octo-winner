@@ -4,16 +4,25 @@ import depwithImage from "../../../public/images/monw.jpg";
 import helplineImage from "../../../public/images/helpline.png";
 import stramcoImage from "../../../public/images/stram.png";
 import raponiGardensImage from "../../../public/images/raponi3.png";
-import serviceMotiImage from "../../../public/images/Servicemoti.png";
+import asyanaImage from "../../../public/images/asyana.png";
 import bmi from "../../../public/images/bmi.jpg";
 import randomizer from "../../../public/images/randomizer.jpg";
 export default function ProjectsSection() {
   return (
-    <section id="projects" className="py-20 bg-gray-50 dark:bg-gray-800">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-12 text-center text-gray-900 dark:text-white">
-          Selected Projects
-        </h2>
+    <section id="projects" className="py-20 bg-gradient-to-b from-gray-50 to-white dark:from-gray-800 dark:to-gray-900 relative">
+      {/* Decorative elements */}
+      <div className="absolute top-20 right-10 w-72 h-72 bg-emerald-100/20 dark:bg-emerald-900/10 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-20 left-10 w-72 h-72 bg-teal-100/20 dark:bg-teal-900/10 rounded-full blur-3xl"></div>
+      
+      <div className="container mx-auto px-4 relative z-10">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-gray-900 to-gray-700 dark:from-white dark:to-gray-300 bg-clip-text text-transparent">
+            Selected Projects
+          </h2>
+          <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+            A showcase of my recent work spanning full-stack web applications, mobile development, and frontend design
+          </p>
+        </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <ProjectCard
             title="Depwith"
@@ -37,10 +46,10 @@ export default function ProjectsSection() {
             title="Stramco Solutions"
             description="Strategic Management Consultancy Firm website with HR services including outsourcing, audits, recruitment, and payroll processing."
             image={stramcoImage}
-            tags={["Frontend", "UI/UX", "Responsive Design"]}
-            liveUrl="https://stramcosolutions.com/"
+            tags={["MongoDB", "Express", "React", "Node.js", "Full Stack"]}
+            liveUrl="https://stramco-limited-2.vercel.app/"
             date="Oct 2023 — Jan 2024"
-            githubUrl="https://github.com/Expo-67/Stramco-ltd.git"
+            githubUrl="https://github.com/Expo-67/stramco-limited.2.git"
             status="Completed"
           />
           <ProjectCard
@@ -54,10 +63,11 @@ export default function ProjectsSection() {
             status="Completed"
           />
           <ProjectCard
-            title="Service-Moti"
-            description="A car maintenance service management platform built with React.js, Node.js, Express, and MongoDB."
-            image={serviceMotiImage}
-            tags={["Full Stack", "React", "Node.js", "MongoDB"]}
+            title="Asyana Hotel Booking"
+            description="A comprehensive hotel booking platform with room reservations, user authentication, and booking management system."
+            image={asyanaImage}
+            tags={["MongoDB", "Express", "React", "Node.js", "Full Stack"]}
+            githubUrl="https://github.com/Expo-67/Asyana-enigma"
             status="Ongoing"
           />
           <ProjectCard
